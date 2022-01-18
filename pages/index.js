@@ -22,11 +22,11 @@ export default function Home() {
         </div>
 
         <div className={styles.projects}>
-          { projects.map(({name, description, key}, index) => 
+          { projects.map(({name, description, key, thumbnail}, index) => 
           <div key={key} className={styles.card}>
             <a href="https://nextjs.org/docs">
               <div className={styles.projectThumbnail}>
-
+                <Image src={thumbnail} alt={`Thumbnail for ${name}`} width={480} height={300}/>
               </div>
             </a>
             <h2>{name}</h2>

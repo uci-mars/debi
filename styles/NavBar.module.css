@@ -1,0 +1,26 @@
+.navbar {
+  height: 70px;
+  /* border-bottom: solid 1px gray; */
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  display: flex;
+}
+
+.navigationList {
+  display: flex;
+  margin: auto;
+  margin-right: 120px;
+}
+
+.navigationList a {
+  margin: 0 12px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.navigationList a:hover,
+.navigationList a:focus,
+.navigationList a:active {
+  color: var(--font-gold);
+}

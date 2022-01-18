@@ -98,14 +98,14 @@
 .card a:hover,
 .card a:focus,
 .card a:active {
-  color: #D09E3A;
+  color: var(--font-gold);
   text-decoration: underline;
 }
 
 .card .projectThumbnail {
   width: 480px;
   height: 300px;
-  border: solid 1px gray; 
+
   border-radius: 25px;
   margin-bottom: 28px;
 }
