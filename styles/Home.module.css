@@ -56,16 +56,22 @@
 .projects_subheader {
   text-align: center;
   margin: 50px 0;
+  display: flex;
 }
 
 .projects_subheader h1 {
   font-size: 18px;
   color: var(--font-black70);
   font-weight: 600;
+  padding: 7px;
+  border-bottom: solid 1px #717171;
+  width: 120px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
 }
 
 /* ===== */
-
 .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -98,15 +104,13 @@
   margin-top: 14px;
   text-align: right;
   display: block;
-}
-
-.card a {
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
-.card a:hover,
-.card a:focus,
-.card a:active {
+
+.card small:hover,
+.card small:focus,
+.card small:active {
   color: var(--font-gold);
   text-decoration: underline;
 }
