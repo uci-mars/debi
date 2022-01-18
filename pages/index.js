@@ -11,20 +11,20 @@ export default function Home() {
           <Image src={hello} alt={"Hello"}/>
         </div>
         <h2 className={styles.subtitle}>
-          my name is <b>Debi Kim</b>
+          my name is <b>Debi Vu</b>
         </h2>
         <h3 className={styles.description}>
           I am an aspiring UX designer recently graduated from the University of California, Irvine.
         </h3>
 
-        <div className={styles.projectsHeader}>
+        <div className={styles.projects_subheader}>
           <h1>Projects</h1>
         </div>
 
         <div className={styles.projects}>
           { projects.map(({name, description, key, thumbnail}, index) => 
           <div key={key} className={styles.card}>
-            <a href="https://nextjs.org/docs">
+            <a href={`/project/${key}`}>
               <div className={styles.projectThumbnail}>
                 <Image src={thumbnail} alt={`Thumbnail for ${name}`} width={480} height={300}/>
               </div>

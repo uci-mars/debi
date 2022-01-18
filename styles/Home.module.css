@@ -53,8 +53,15 @@
 
 /* ===== */
 
-.projectsHeader {
-  margin-bottom: 50px;
+.projects_subheader {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.projects_subheader h1 {
+  font-size: 18px;
+  color: var(--font-black70);
+  font-weight: 600;
 }
 
 /* ===== */
@@ -76,6 +83,7 @@
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 18px;
+  color: var(--font-black70);
 }
 
 .card p, .card small {
@@ -83,6 +91,7 @@
   font-size: 14px;
   line-height: 1.5;
   font-weight: 400;
+  color: var(--font-black70);
 }
 
 .card small {
@@ -105,9 +114,18 @@
 .card .projectThumbnail {
   width: 480px;
   height: 300px;
-
   border-radius: 25px;
   margin-bottom: 28px;
+  overflow: hidden;
+}
+
+.card .projectThumbnail img {
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.card .projectThumbnail:hover img {
+  border-radius: 25px;
+  transform: scale(1.05);
 }
 
 @media (max-width: 600px) {
