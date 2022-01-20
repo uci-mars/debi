@@ -3,8 +3,8 @@ title: UCI Student Center - Design Challenge
 thumbnail: /assets/projects/UCIStudentCenter/thumbnail.png
 description: Awarded the Most Aesthetic Design
 coverImage: /assets/projects/UCIStudentCenter/coverImage.png
-projectType: Mobile application
-duration: Nov. - Dev. 2021
+projectType: Mobile and Web application
+duration: May 2020
 role: UX research and UI design
 responsibilities: Conducting interviews, paper and digital wireframing, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.
 ---
@@ -25,6 +25,16 @@ Design a user friendly website with easy navigation and compartmentalize the lay
 
 After ideating, we decided to add a blue background for contrast to increase empathasis on featured events and to attract users to promote their online event. In addition, we added a modal to hide irrelevant information.
 
-| Syntax      | Description |
+| Before      | After       |
 | ----------- | ----------- |
-| ![testing](/assets/projects/UCIStudentCenter/thumbnail.png)| ![testing](/assets/projects/UCIStudentCenter/thumbnail.png)|
+| ![testing](/assets/projects/UCIStudentCenter/1.png)| ![testing](/assets/projects/UCIStudentCenter/2.png)![testing](/assets/projects/UCIStudentCenter/3.png)|
+
+We added a calender to help users better visualize the specific days and timeframe of events and enables users to be selective. The events for the selected dates will be shown on the right of the calender. Users can click on the event they are interested in to view more information.
+
+**add image here**
+
+We implemented a carousel to compartmentalizing the content and reduce the amount of scrolling and vertical space. This solution is benefical if the information is not interesting or relevent to the user. But if the user is, for example, interested in getting involved this quarter, they can click or swipe through the carousel.
+
+**add images here**
+
+[View the UCI Student Center high-fidelity prototype.](https://www.figma.com/file/cQhk3PFNZJi2TWk2jD13SE/UCI-Student-Center---Design-Challenge?node-id=0%3A1)

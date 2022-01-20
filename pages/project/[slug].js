@@ -19,6 +19,8 @@ export default function Project({ project }) {
       <div className={styles.contentWrapper}>
         <div className={styles.content} dangerouslySetInnerHTML={{__html: project.content}}/>
         <div className={styles.metadata}>
+          <h3>Title:</h3>
+          <p>{project.title}</p>
           <h3>Project Type:</h3>
           <p>{project.projectType}</p>
           <h3>Duration:</h3>

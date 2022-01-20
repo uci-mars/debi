@@ -19,11 +19,11 @@
 .content table {
   table-layout: fixed;
   width: 100%;
+  border-spacing: 14px;
 }
 
 .content table tbody tr td img {
   width: 100%;
-  padding: 7px;
 }
 
 .content p, .metadata p {
@@ -33,5 +33,8 @@
 }
 
 .metadata {
-  width: 25%
+  width: 25%;
+  position: sticky;
+  height: 100%;
+  top: 50px;
 }
