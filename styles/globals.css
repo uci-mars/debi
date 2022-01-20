@@ -20,4 +20,9 @@ a {
 :root {
   --font-black70: #4F4F4F;
   --font-gold: #D09E3A;
+  --navbar-height: 70px;
+}
+
+.contentBody {
+  padding-top: var(--navbar-height);
 }

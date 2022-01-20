@@ -23,7 +23,7 @@ const EMHealth = {
   name: 'EM Health',
   description: 'Cross-platform app designed to teach first aid',
   key: 'EMHealth',
-  thumbnail: '/assets/projects/EMJewelry.png',
+  thumbnail: '/assets/projects/EMHealth_thumbnail.png',
 }
 
 const projects = [UCIStudentCenter, EMJewelry, EMBakeryCafe, EMHealth];

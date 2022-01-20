@@ -1,5 +1,5 @@
 .navbar {
-  height: 70px;
+  height: var(--navbar-height);
   /* border-bottom: solid 1px gray; */
   position: fixed;
   width: 100%;

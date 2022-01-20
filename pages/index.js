@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import hello from '../assets/hello.svg';
-import projects from '../data/projects';
+import { getAllProjects } from '../lib/api';
 
-export default function Home() {
+export default function Home({ allProjects }) {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
@@ -22,16 +22,16 @@ export default function Home() {
         </div>
 
         <div className={styles.projects}>
-          { projects.map(({name, description, key, thumbnail}, index) => 
-          <div key={key} className={styles.card}>
-            <a href={`/project/${key}`}>
+          { allProjects.map(({title, slug, thumbnail, description}, index) => 
+          <div key={slug} className={styles.card}>
+            <a href={`/project/${slug}`}>
               <div className={styles.projectThumbnail}>
-                <Image src={thumbnail} alt={`Thumbnail for ${name}`} width={480} height={300}/>
+                <Image src={thumbnail} alt={`Thumbnail for ${title}`} width={480} height={300}/>
               </div>
             </a>
-            <h2>{name}</h2>
+            <h2>{title}</h2>
             <p>{description}</p>
-            <a href={`/project/${key}`}>
+            <a href={`/project/${slug}`}>
               <small>View case study &rarr;</small>
             </a>
           </div>
@@ -42,3 +42,16 @@ export default function Home() {
     </div>
   )
 }
+
+export async function getStaticProps() {
+  const allProjects = getAllProjects([
+    'title',
+    'slug',
+    'thumbnail',
+    'description',    
+  ]);
+
+  return {
+    props: { allProjects },
+  }
+};
