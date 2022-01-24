@@ -4,6 +4,11 @@ import { getProjectBySlug, getAllProjects } from '../../lib/api';
 import ErrorPage from 'next/error';
 import Image from 'next/image';
 import styles from '../../styles/Projects.module.css';
+import { FaFigma } from 'react-icons/fa';
+
+const iconMap = {
+  'figma': <FaFigma />
+}
 
 export default function Project({ project }) {
   const router = useRouter();
@@ -19,16 +24,20 @@ export default function Project({ project }) {
       <div className={styles.contentWrapper}>
         <div className={styles.content} dangerouslySetInnerHTML={{__html: project.content}}/>
         <div className={styles.metadata}>
-          <h3>Title:</h3>
-          <p>{project.title}</p>
-          <h3>Project Type:</h3>
+          <h3>{project.title}</h3>
+          <div className={styles.colorPalette}>
+            {project.colorPalette.map((color) => <div key={color} style={{ backgroundColor: color }} className={styles.colorSwatch} />)}
+          </div>
+          <h5>Project Type:</h5>
           <p>{project.projectType}</p>
-          <h3>Duration:</h3>
-          <p>{project.duration}</p>
-          <h3>Role:</h3>
-          <p>{project.role}</p>
-          <h3>Responsibilities:</h3>
+          <p><b>Duration: </b>{project.duration}</p>
+          <p><b>Role: </b>{project.role}</p>
+          {/* <h4>Duration:</h4><p>{project.duration}</p> */}
+          {/* <h4>Role:</h4><p>{project.role}</p> */}
+          <h5>Responsibilities:</h5>
           <p>{project.responsibilities}</p>
+          <h5>Link{project.links.length > 1 && 's'}:</h5>
+          <p>{project.links.map((link) => <a href={link.url} key={link.url} className={styles.link}>{iconMap[link.icon]} {link.name}</a>)}</p>
         </div>
       </div>
     </div>
@@ -45,6 +54,8 @@ export async function getStaticProps({ params }) {
     'role',
     'responsibilities',
     'content',
+    'colorPalette',
+    'links',
   ])
 
   const content = await markdownToHtml(project.content || '')

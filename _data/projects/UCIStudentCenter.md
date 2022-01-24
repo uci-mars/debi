@@ -7,21 +7,27 @@ projectType: Mobile and Web application
 duration: May 2020
 role: UX research and UI design
 responsibilities: Conducting interviews, paper and digital wireframing, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.
+colorPalette: ['#0064A4', '#0275D8', '#5BC0DE', '#F0AD4E', '#FFD200']
+links: [{
+  name: 'High-fidelity prototype',
+  icon: 'figma',
+  url: 'https://www.figma.com/file/cQhk3PFNZJi2TWk2jD13SE/UCI-Student-Center---Design-Challenge?node-id=2%3A39'
+}]
 ---
 
-## Overview
+### Overview
 
 The Virtual Meetings and Events at UCI host a wide range of conferences, webinars, and events each quarter to encourage college students to get involved with their community. This was a week long design challenge hosted by UCI Student Center to redesign their homepage while keeping accessibility in mind.
 
-### The Problem:
+#### The Problem:
 
 The homepage of the website is very content heavy. The cluttered website makes it difficult for users to search for upcoming events on specific dates in addition the scrolling and content fatigue is frustrating for the users.
 
-### The Goal:
+#### The Goal:
 
 Design a user friendly website with easy navigation and compartmentalize the layout of the content.
 
-## The Design
+### The Design
 
 After ideating, we decided to add a blue background for contrast to increase empathasis on featured events and to attract users to promote their online event. In addition, we added a modal to hide irrelevant information.
 

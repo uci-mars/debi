@@ -32,9 +32,40 @@
   font-size: 14px;
 }
 
+.content ol {
+  line-height: 26px;
+}
+
 .metadata {
   width: 25%;
   position: sticky;
   height: 100%;
   top: 50px;
+}
+
+.metadata h3 {
+  line-height: 26px;
+}
+
+.colorSwatch {
+  height: 10px;
+  width: 10px;
+  margin: 0 1px;
+}
+
+.colorSwatch:hover {
+  transform: scale(1.2);
+}
+
+.colorPalette {
+  display: flex;
+}
+
+.link {
+  transition: color 0.15s ease, border-color 0.15s ease;
+  display: block;
+}
+
+.link:hover {
+  color: var(--font-gold);
 }
