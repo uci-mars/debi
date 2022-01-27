@@ -5,9 +5,11 @@ import ErrorPage from 'next/error';
 import Image from 'next/image';
 import styles from '../../styles/Projects.module.css';
 import { FaFigma } from 'react-icons/fa';
+import { SiAdobexd } from 'react-icons/si';
 
 const iconMap = {
-  'figma': <FaFigma />
+  'figma': <FaFigma />,
+  'xd': <SiAdobexd />
 }
 
 export default function Project({ project }) {

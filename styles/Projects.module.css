@@ -62,11 +62,11 @@
   display: flex;
 }
 
-.link {
+.link, .content a {
   transition: color 0.15s ease, border-color 0.15s ease;
   display: block;
 }
 
-.link:hover {
+.link:hover, .content a:hover {
   color: var(--font-gold);
 }

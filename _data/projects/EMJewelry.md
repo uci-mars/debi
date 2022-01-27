@@ -1,10 +1,10 @@
 ---
-title: EM Jewerly
+title: EM Jewelry
 thumbnail: /assets/projects/EMJewelry/thumbnail.png
 description: E-commerce mobile app
 coverImage: /assets/projects/EMJewelry/coverImage.png
 projectType: Mobile application
-duration: Nov. - Dev. 2021
+duration: Nov. - Dec. 2021
 role: UX research and UI design
 responsibilities: Conducting interviews, paper and digital wireframing, low and high-fidelity prototyping, conducting usability studies, accounting for accessibility, and iterating on designs.
 colorPalette: ['#D9C1B8', '#E5E5E5']

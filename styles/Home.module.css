@@ -20,9 +20,9 @@
   width: 100%;
 }
 
-.title, .subtitle, .description {
+.title, .subtitle, .description, .contactLinks {
   color: var(--font-black70);
-  margin: 6px 0px 6px 0px;
+  margin: 8px 0px 8px 0px;
   font-weight: 400;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .description {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 
@@ -42,6 +42,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  padding-top: 12px;
 }
 
 .footer a {
@@ -105,6 +107,7 @@
   text-align: right;
   display: block;
   transition: color 0.15s ease, border-color 0.15s ease;
+  display: flex;
 }
 
 
@@ -113,6 +116,11 @@
 .card small:active {
   color: var(--font-gold);
   text-decoration: underline;
+  cursor: pointer;
+}
+
+.card h2:hover, .card p:hover {
+  cursor: pointer;
 }
 
 .card .projectThumbnail {
@@ -130,6 +138,7 @@
 .card .projectThumbnail:hover img {
   border-radius: 25px;
   transform: scale(1.05);
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
@@ -137,4 +146,39 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.contactLinks a svg {
+  height: 24px;
+  width: 24px;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.contactLinks a:not(:last-child) {
+  margin-right: 12px;
+}
+
+.contactLinks a:hover {
+  color: var(--font-gold);
+  cursor: pointer;
+}
+
+.contactLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.businessCard {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+}
+
+.profilePicWrapper {
+  height: 250x;
+  width: 250px;
+  border-radius: 250px;
+  overflow: hidden;
+  margin-right: 36px;
 }
