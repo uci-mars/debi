@@ -13,27 +13,28 @@
 
 .content {
   width: 75%;
-  padding-right: 36px;
+  padding: 0 36px 72px 0;
 }
 
 .content table {
   table-layout: fixed;
   width: 100%;
   border-spacing: 14px;
+  margin: -14px -14px 0 -14px;
 }
 
-.content table tbody tr td img {
+.content img, .content table tbody tr td img {
   width: 100%;
 }
 
-.content p, .metadata p {
+.content p, .metadata p, .content ol {
   font-weight: 200;
   line-height: 26px;
   font-size: 14px;
 }
 
 .content ol {
-  line-height: 26px;
+  padding-left: 20px;
 }
 
 .metadata {

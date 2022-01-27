@@ -39,14 +39,33 @@ I conducted interviews and created empathy maps to understand the users I am des
 This user group confirmed initial assumption about EM Jewelry customers, but further research also revealed that users wanted an app that is user friendly and creates an enjoyable experience. 
 
 #### User Research: Pain Points
-| Navigation: | Interaction: |
-|-|-|
-|Shopping websites are overwhelming and confusing to navigate.|Small buttons make item selection difficult.|
+<table>
+  <thead>
+    <tr style="text-align: center;">
+      <td>
+        <h4 style="margin-bottom: 0">Navigation:</h4>
+      </td>
+      <td>
+        <h4 style="margin-bottom: 0">Interaction:</h4>
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; text-align: center;">
+        <p>Shopping websites are overwhelming and confusing to navigate.</p>
+      </td>
+      <td style="vertical-align: top; text-align: center;">
+        <p>Small buttons make item selection difficult.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <br/>
 <br/>
 
-<div style="background-color: #D9C1B8; padding: 12px;">
+<div style="background-color: #D9C1B8; padding: 24px;">
   <table>
     <thead>
       <tr>
@@ -56,7 +75,7 @@ This user group confirmed initial assumption about EM Jewelry customers, but fur
     <tbody>
       <tr>
         <td rowspan="2">
-        <div style="height:150px; width: 100%; background-image: url('/assets/projects/EMJewelry/1.png'); background-position-y: -50px; background-size: cover;"></div>
+        <div style="height:140px; width: 100%; background-image: url('/assets/projects/EMJewelry/1.png'); background-position-y: -50px; background-size: cover;"></div>
         <p>
           <b>Age:</b> 22<br/>
           <b>Education:</b> Chemistry B.A. degree<br/>
@@ -112,6 +131,8 @@ Katelin is a busy young adult who needs a intutive website navigation and search
   </tr>
 </table>
 
+[🎨 View the EM Jewelry low-fidelity prototype.](https://www.figma.com/file/FgfClNkYmr0ACbn2TPobP1/Lo-fi-prototype?node-id=0%3A1)
+
 #### Usuabilty Study: Parameters
 |||||
 |-|-|-|-|
@@ -123,3 +144,47 @@ Katelin is a busy young adult who needs a intutive website navigation and search
 2. Users had difficulty returning to the starting points.
 3. Users had difficulty with the buttons.
 
+### Refining the Design
+
+#### Mockups
+<table>
+  <tr>
+    <td colspan="4">
+      <p>After the usability study, the category were more spaced out, allowing users to have a bigger touch target/clickable area. The design was revised to have a cleaner and more focused design.</p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" style="text-align: center">
+      <h4>Before usuability study</h4>
+    </td>
+    <td colspan="2" style="text-align: center">
+      <h4>After usuability study</h4>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img style="border-radius: 32px" src="/assets/projects/EMJewelry/5.png" />
+    </td>
+    <td>
+      <img style="border-radius: 32px" src="/assets/projects/EMJewelry/6.png" />
+    </td>
+    <td>
+      <img style="border-radius: 32px" src="/assets/projects/EMJewelry/7.png" />
+    </td>
+    <td>
+      <img style="border-radius: 32px" src="/assets/projects/EMJewelry/8.png" />
+    </td>
+  </tr>
+</table>
+
+[🎨 View the EM Jewelry high-fidelity prototype.](https://www.figma.com/file/XPtIiKuRfR0dIZ5dDvShOl/Hi-fi-Prototype?node-id=2%3A708)
+
+### Going Forward
+
+#### What I Learned:
+
+While designing the EM Jewelry app, I learned that the first ideas for the app are only the beginning of the process. Usability studies and peer feedback influenced each iteration of the app’s design.  
+
+#### Next Steps:
+1. Conduct another round of usability studies to validate whether the pain points users experienced have been effectively addressed.
+2. Conduct more user research to determine any new areas of need.

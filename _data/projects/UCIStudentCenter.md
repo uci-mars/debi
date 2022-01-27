@@ -33,14 +33,16 @@ After ideating, we decided to add a blue background for contrast to increase emp
 
 | Before      | After       |
 | ----------- | ----------- |
-| ![testing](/assets/projects/UCIStudentCenter/1.png)| ![testing](/assets/projects/UCIStudentCenter/2.png)![testing](/assets/projects/UCIStudentCenter/3.png)|
+| ![](/assets/projects/UCIStudentCenter/1.png)| ![](/assets/projects/UCIStudentCenter/2.png)![](/assets/projects/UCIStudentCenter/3.png)|
 
 We added a calender to help users better visualize the specific days and timeframe of events and enables users to be selective. The events for the selected dates will be shown on the right of the calender. Users can click on the event they are interested in to view more information.
 
-**add image here**
+![](/assets/projects/UCIStudentCenter/4.png)
 
 We implemented a carousel to compartmentalizing the content and reduce the amount of scrolling and vertical space. This solution is benefical if the information is not interesting or relevent to the user. But if the user is, for example, interested in getting involved this quarter, they can click or swipe through the carousel.
 
-**add images here**
+|Before|After|
+|-|-|
+|![](/assets/projects/UCIStudentCenter/5.png)|![](/assets/projects/UCIStudentCenter/6.png)|
 
-[View the UCI Student Center high-fidelity prototype.](https://www.figma.com/file/cQhk3PFNZJi2TWk2jD13SE/UCI-Student-Center---Design-Challenge?node-id=0%3A1)
+[🎨 View the UCI Student Center high-fidelity prototype.](https://www.figma.com/file/cQhk3PFNZJi2TWk2jD13SE/UCI-Student-Center---Design-Challenge?node-id=0%3A1)
